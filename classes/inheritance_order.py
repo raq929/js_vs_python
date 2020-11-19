@@ -15,3 +15,9 @@ class ChildA(ParentA, ParentB):
 
 class ChildB(ParentB, ParentA):
     pass
+
+child_a = ChildA()
+child_b = ChildB()
+
+print(f'ChildA eye color: {child_a.eye_color}')
+print(f'ChildB eye color: {child_b.eye_color}')

@@ -19,4 +19,4 @@ class Album:
 
     def play(self):
         player = self._get_player()
-        payer.play(self.songs)
+        player.play(self.songs)

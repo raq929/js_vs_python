@@ -15,7 +15,7 @@ class AlbumWithoutLenAndBool:
 
 
 def print_if_true(album):
-    if(album):
+    if album:
         print("Album was truthy!")
     else:
         print("Album was falsey!")

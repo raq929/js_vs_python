@@ -1,7 +1,6 @@
 class Album:
     def __init__(self, songs=[]):
         self.songs = songs
-        self.player = player
 
     def track_order(self, song):
         if song in self.songs:
@@ -15,3 +14,4 @@ class Album:
 
 
 lemonade = Album(songs=['Pray you catch me', 'Hold up', 'Sorry', 'Love Drought', 'Freedom', 'Formation'])
+lemonade.set_song_order('Hold up', 3)
